@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Xtvshort - Video Streaming</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Xtvshort</h1>
+    <p>Watch your favorite videos</p>
+  </header>
+
+  <main>
+    <h2>Featured Video</h2>
+
+    <div class="video-container">
+      <iframe
+        id="youtubePlayer"
+        src="https://www.youtube.com/embed/olNgMeLZBa0"
+        title="Xtvshort Video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        referrerpolicy="strict-origin-when-cross-origin">
+      </iframe>
+    </div>
+
+    <p class="video-title">Featured YouTube Video</p>
+    <button id="watchButton">Watch Video</button>
+  </main>
+
+  <footer>
+    <p>© 2026 Xtvshort</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
